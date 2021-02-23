@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="baner  ">
+            <img class="logo" src="facebook.svg" alt="logo do facebook">
+            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h2>
+        </div>
+        <div class="intro">
+            <form class="form">
+                <input type="text" placeholder="email ou telefone">
+                <input type="password" placeholder="senha">
+
+                <button class="entrar">Entrar</button>
+                <a href="#">Esqueceu sua senha?</a>
+                <button class="criarcont">criar nova conta</button>
+            </form>
+
+
+            <p> <a href="#">criar uma conta</a> para uma celebridade,artista ou banda</p>
+        </div>
+    </div>
+    <footer>
+        <p>Português (Brasil)
+            English (US)
+            Español
+            Français (France)
+            Italiano
+            العربية
+            Deutsch
+            हिन्दी
+            中文(简体)
+            日本語
+            Cadastre-seEntrarMessengerFacebook LiteWatchPessoasPáginasCategorias de
+            PáginaLocaisJogosLocaisMarketplaceFacebook PayGruposVagas de empregoOculusPortalInstagramLocalCampanhas de
+            arrecadação de fundosServiçosCentral de Informações de VotaçãoSobreCriar anúncioCriar
+            PáginaDesenvolvedoresCarreirasPrivacidadeCookiesEscolhas para anúnciosTermosAjudaConfiguraçõesRegistro de
+            Atividades
+        </p>
+        Facebook © 2021facebook © - <span id="year"></span>
+    </footer>
+
+
+    <script>
+        const year = document.getElementById('year')
+        const actualYear = new Date();
+
+        year.innerHTML = actualYear.getFullYear();
+    </script>
+</body>
+
+</html>
