@@ -6,5 +6,6 @@
  <h2>I accept suggestions and help to improve</h2> 
   eu aceito sujestão e dicas para melhorar
   
-  ![image](https://user-images.githubusercontent.com/73961367/119429128-9d25d600-bce4-11eb-936e-87687f3e297d.png)
+![image](https://user-images.githubusercontent.com/73961367/119429177-bb8bd180-bce4-11eb-8d86-df3bac6aa8ad.png)
+
 
